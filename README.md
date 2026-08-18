@@ -376,4 +376,4 @@ SOURCE Employee_Performance.sql;
 - Build stored procedures for the flight risk and executive dashboard queries — parameterize by department instead of hardcoding `'Zone A'`
 - Create a materialized summary table for the `dept_base` CTE — recomputing on every dashboard refresh is unnecessary overhead
 - Use `PERCENTILE_CONT` for median calculation — the `ROW_NUMBER()` workaround works but a PostgreSQL port would be cleaner
-- Add salary-to-performance ratio as an attrition driver — Zone A pays less than Zone C by definition, but the gap relative to individual performance rating is the real signal
+- Add salary-to-performance ratio as an attrition driver — Zone A pays less than Zone C by definition, but the gap relative to individual performance rating is the real signal.
